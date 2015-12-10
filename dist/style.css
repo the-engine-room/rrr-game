@@ -1,0 +1,164 @@
+body {
+    background: white url('../assets/images/bg-pattern-small.png') repeat top left;    
+}
+#main, #card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(26,23,27,0.6);
+    border: 3px solid white; 
+}
+
+#main, #card {
+	background-image: url(../assets/images/bg-details-topleft.png), url(../assets/images/bg-details-topright.png), url(../assets/images/bg-details-bottomleft.png), url(../assets/images/bg-details-bottomright.png);
+	background-position: left top, right top, left bottom, right bottom;
+	/*background-position-x: 0.5%, 99.5%, 0.5%, 99.5%;
+	background-position-y: 0.5%, 0.5%, 99.5%, 99.5%;*/
+    background-repeat: no-repeat;
+	padding: 0 25px 55px 25px;
+}
+
+p { 
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	color: white; 
+}
+
+strong {
+	color: #E93F33;
+	font-weight: 400;
+}
+
+.card-link .thumbnail {
+    padding: 12px; 
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color: rgba(26,23,27,0.3);
+    border: none;
+    -moz-transiion: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+}
+
+.card-link a:hover {
+	text-decoration: none;
+}
+
+.card-link .thumbnail:hover {
+	background-color: white;
+}
+
+.card-link .thumbnail h2 {
+    font-size: 30px;
+    color: #d01d10;
+    font-family: 'Medula One', serif;
+    text-align: center;
+}
+
+/* Card Pages **/
+#card header {
+    margin-bottom: 0px; 
+}
+h2.h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', serif;
+    text-transform: uppercase;
+    margin-top: 0px; 
+}
+#card .card-logo {
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+.you-are {
+	display: block;
+	background: white;
+	border: 1px solid #E93F33;
+	height: 34px;
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #BE0A26;
+}
+.you-are-night {
+    background: url(../assets/images/card-night.png) center top no-repeat;
+}
+
+.you-are-day {
+    background: url(../assets/images/card-day.png) center top no-repeat;
+}
+
+.you-are-traits {
+	color: white;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Stint Ultra Condensed', serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+.centered { text-align: center; margin-top: 25px; margin-bottom: 25px; }
+
+.dilemma {
+	border-bottom: 1px white solid;
+	border-top: 1px white solid;
+	padding: 20px 0;
+}
+
+
+/*** the form ***/
+input.form-control { 
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+input.form-control:focus {
+    border-color: #BE0A26;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(226, 0, 26, 0.6);
+}
+
+/* The dividing eye */
+.divider {
+	height: 26px;
+	width: 100%;
+	margin: 25px 0;
+	background: url(../assets/images/eye-divide.png) center center no-repeat;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(26,23,27,0.8);
+    margin-top: 60px;
+    padding: 30px 0;
+    min-height: 100px; 
+}
+
+footer p {
+	color: #a2a0a0;
+	font-size: 12px;
+}
+
+footer a {
+	color: #E93F33;
+	font-weight: 400;
+	text-decoration: none;
+}
+footer a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+footer h3 {
+	font-family: 'Stint Ultra Condensed', serif;
+	font-size: 26px; 
+	text-transform: uppercase;
+	color: #e0e0e0;
+}
+
+a.sponsors {
+	display: block;
+	padding: 0 50% 20px 0;
+}
+
